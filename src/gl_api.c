@@ -12,7 +12,7 @@
 #define PGL_ENABLE_LIGHTING (1<<7)
 #define PGL_ENABLE_DEPTH_TEST (1<<8)
 
-static GLbitfield PGL_ENABLE_CAP = 0;
+static GLbitfield PGL_ENABLE_CAP;
 static GLfloat PGL_COLOR_CLEAR[3] = { 0, 0, 0 };
 
 void pglActiveTexture(GLenum texture) {

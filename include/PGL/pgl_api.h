@@ -51,7 +51,7 @@ void pglEnableLight(const GLuint light);
 void pglDisableLight(const GLuint light);
 unsigned char pglVertexList();
 inline void pglVertexBufferPointer();
-inline void pglVertexBufferAddress
+inline void pglVertexBufferAddress();
 inline void pglVertexBufferSwitchOP();
 inline void pglVertexBufferSwitchTR();
 void pglClear(GLbitfield mask);
@@ -64,3 +64,4 @@ void pglClearStencil(GLint s);
 void pglActiveShaderProgram(GLuint pipeline, GLuint program);
 void pglActiveTexture(GLenum texture);
 void pglMatrixApplyRender();
+#endif PGL_API_H
